@@ -1,0 +1,61 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local runtime data
+data/
+logs/
+
+# --- Konfiguracja i Sekrety (KLUCZOWE) ---
+config.json
+config.yaml
+config.ini
+.env
+secrets.*
+*.local
+
+# --- Pliki Pythona (jeśli w tym piszesz) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- Pliki kompilacji / PlatformIO / C++ (jeśli mikrokontroler) ---
+.pio/
+.build/
+*.o
+*.bin
+*.hex
+
+# --- Systemowe i Logi ---
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
