@@ -1,0 +1,9 @@
+#MeshRock config file
+
+[config]
+# Configuration schema version. Do not change if you are not sure.
+schema_version = 1
+
+
+[companion]
+ADDRESS = "10:BD:A3:5B:A1:51"

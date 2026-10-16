@@ -3,9 +3,7 @@ from meshcore import MeshCore
 import logging
 logging.basicConfig(level=logging.ERROR)
 
-
-#ADDRESS = "10:BD:A3:5B:0A:2D"
-ADDRESS = "10:BD:A3:5B:A1:51"
+ADDRESS = ""
 
 
 async def main():

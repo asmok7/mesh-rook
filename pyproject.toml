@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshrook"
+version = "0.1.0"
+description = "MeshCore bot"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["meshcore"]
+
+[project.scripts]
+meshrook = "meshrook.app:main"

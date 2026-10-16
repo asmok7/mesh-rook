@@ -7,6 +7,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*$py.class
+ENV/
 
 # Virtual environments
 .venv/
@@ -25,6 +27,10 @@ secrets/
 *.log
 *.tmp
 *.bak
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
 # Local runtime data
 data/
@@ -34,17 +40,10 @@ logs/
 config.json
 config.yaml
 config.ini
+config.toml
 .env
 secrets.*
 *.local
-
-# --- Pliki Pythona (jeśli w tym piszesz) ---
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-ENV/
 
 # --- Pliki kompilacji / PlatformIO / C++ (jeśli mikrokontroler) ---
 .pio/
@@ -52,10 +51,3 @@ ENV/
 *.o
 *.bin
 *.hex
-
-# --- Systemowe i Logi ---
-*.log
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/

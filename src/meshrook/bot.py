@@ -5,7 +5,7 @@ from datetime import datetime
 
 from meshcore import MeshCore, EventType
 
-ADDRESS = "10:BD:A3:5B:A1:51"
+ADDRESS = ""
 
 logging.basicConfig(level=logging.ERROR)
 class ContactDebugFilter(logging.Filter):
@@ -21,10 +21,6 @@ debug_filter = ContactDebugFilter()
 mesh_logger = logging.getLogger("meshcore")
 #mesh_logger.setLevel(logging.DEBUG)
 #mesh_logger.addFilter(debug_filter)
-for name in logging.root.manager.loggerDict:
-    if name.startswith("meshcore"):
-        print(name)
-
 
 async def main():
     mesh = await MeshCore.create_ble(
@@ -168,4 +164,3 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         print("\nZatrzymano bota.")
-
