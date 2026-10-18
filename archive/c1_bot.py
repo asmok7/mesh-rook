@@ -5,7 +5,7 @@ from datetime import datetime
 
 from meshcore import MeshCore, EventType
 
-ADDRESS = "10:BD:A3:5B:A1:51"
+ADDRESS = ""
 
 logging.basicConfig(level=logging.WARNING)
 
